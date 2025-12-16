@@ -1,0 +1,16 @@
+{
+  "hosts": [
+    {
+      "hostname": "web-server-1",
+      "ip": "127.0.0.1",
+      "services": [
+        {
+          "name": "Apache",
+          "type": "http",
+          "port": 80,
+          "systemd": "apache2"
+        }
+      ]
+    }
+  ]
+}
